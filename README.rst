@@ -16,6 +16,23 @@ This example shows how to provide JSON API URLs for custom Dexterity_ content
 types using plone.jsonapi.core_ and plone.jsonapi.routes_.
 
 
+A simple Todo Content Type
+--------------------------
+
+A simple Dexterity_ based Todo content type is provided in `src/plone.todos`.
+A `Todo` Item is basically an item with a `title` where the user can enter a
+task, a `description`, where the user can add some additionaly notes and a
+`completed` field, where the todo item can be completed.
+
+
+The CRUD API
+------------
+
+The JSON API is defined in the `api` module of the `plone.todos` package.
+It uses the `plone.jsonapi.routes` to provide the get, create, update and
+delete functionality.
+
+
 License
 -------
 
