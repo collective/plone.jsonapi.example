@@ -6,3 +6,4 @@ develop-eggs
 src/collective.developermanual
 src/plone.jsonapi.core
 src/plone.jsonapi.routes
+var
