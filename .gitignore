@@ -3,3 +3,6 @@ parts
 develop-eggs
 .installed.cfg
 .mr.developer.cfg
+src/collective.developermanual
+src/plone.jsonapi.core
+src/plone.jsonapi.routes
